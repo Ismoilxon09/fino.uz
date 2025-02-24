@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feeedbacks — FINO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="https://fino.uz/wp-content/uploads/2019/04/fino_ico.png" sizes="32x32">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body onload="fino()">
+    
+    <header id="header">
+        <div class="head">
+            <div class="div_finoimg">
+                <a href="">
+                    <img id="finoimg" src="https://fino.uz/wp-content/uploads/2024/06/Logo-FULL-Cut-version-small-e1718341541100.png" alt="">
+                </a>
+            </div>
+            <div class="about_fino">
+                <h5 id="about_h5">Education Abroad - All over the world</h5>
+            </div>
+            <div class="div_tel">
+                <div class="div_tel01">
+                  <i class="fa-solid fa-phone"></i>
+                  <span> Speak With Us Today</span>
+                </div>
+                <a id="tel_a" href="tel:+99871 200 64 45">+99871 200 64 45</a>
+                
+            </div>
+            <div class="div_contacts">
+                <a href="https://www.facebook.com/finoconsultinguz/">
+                    <i id="i_facebook" class="fa-brands fa-facebook"></i>
+                </a>
+                
+                    <div class="mycontacts2"><i class="fa-brands fa-instagram"></i></div>
+                
+                <a href="https://t.me/finouzbekistan">
+                    <i id="i_telegram" class="fa-brands fa-telegram"></i>
+                </a>
+                <div class="mycontacts2"><i class="fa-brands fa-youtube"></i></div>
+                <div class="mycontacts3"><i class="fa-solid fa-location-dot"></i></div>
+                <button id="btn_menu" class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></button>
+
+                 <div class="offcanvas offcanvas-start overflow-auto" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                   <div class="offcanvas-header">
+                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                   </div>
+                   <div class="offcanvas-body">
+                      <a href="">
+                        <div class="div_offcanvas_body">
+                            <span>HOME</span>
+                        </div>
+                      </a>
+                      <a href="aboutas.html">
+                        <div class="div_offcanvas_body">
+                            <span>ABOUT US</span>
+                        </div>
+                      </a>
+                      <a href="/pages/countries.html">
+                        <div class="div_offcanvas_body">
+                          <span>COUNTRIES</span>
+                        </div>
+                      </a>
+                      <a href="ourservices.html">
+                        <div class="div_offcanvas_body">
+                          <span>OUR SERVICES</span>
+                        </div>
+                      </a>
+                      <a href="feeedbacks.html">
+                        <div class="div_offcanvas_body">
+                          <span>FEEDBACKS</span>
+                        </div>
+                      </a>
+                      <a href="contactus.html">
+                        <div class="div_offcanvas_body">
+                          <span>CONTACT US</span>
+                        </div>
+                      </a>
+                      <a href="workforus.html">
+                        <div class="div_offcanvas_body">
+                          <span>WORK FOR US</span>
+                        </div>
+                      </a>
+                      <div class="offcanvas_contacts">
+                            <a href="https://www.facebook.com/finoconsultinguz/">
+                              <i id="i_facebook" class="fa-brands fa-facebook"></i>
+                            </a>
+                          
+                              <div class="mycontactsins"><i class="fa-brands fa-instagram"></i></div>
+                          
+                            <a href="https://t.me/finouzbekistan">
+                                <i id="i_telegram" class="fa-brands fa-telegram"></i>
+                            </a>
+                            <div class="mycontactsyt"><i class="fa-brands fa-youtube"></i></div>
+                            <div class="mycontactslc"><i class="fa-solid fa-location-dot"></i></div>
+                      </div>
+                      <div class="select_offcanvas">
+                        <select id="select_l" class="dropdown-toggle" aria-label="Default select example">
+                          <option id="option_til" selected>English</option>
+                          <option id="option_til" value="1">Oʻzbek</option>
+                          <option id="option_til" value="2">Русский</option>
+                        </select>
+                      </div>
+                   </div>
+                 </div>
+            </div>
+        </div>
+        <div class="head_div">
+            <div class="head_div01">
+                <div class="head_div02">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/pages/aboutas.html">About Us</a></li>
+                        <li><a href="/pages/countries.html">Countries</a></li>
+                        <li><a href="/pages/ourservices.html">Our Services</a></li>
+                        <li><a href="/pages/feeedbacks.html">Feedbacks</a></li>
+                        <li><a href="/pages/contactus.html">Contact Us</a></li>
+                        <li><a href="/pages/workforus.html">Work for Us</a></li>
+                    </ul>
+                </div>
+                <div class="head_div03">
+                    <select id="select_language" class="dropdown-toggle" aria-label="Default select example">
+                        <option id="option_til" selected>English</option>
+                        <option id="option_til" value="1">Oʻzbek</option>
+                        <option id="option_til" value="2">Русский</option>
+                      </select>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="divabout">
+              <div class="divabout01">
+                   <h4>Feedbacks</h4>
+              </div>
+        </div>
+        <div class="div_text3">
+            <div class="div-text2">
+                <h2>We love hearing from our student body</h2>
+                  <span>FINO Consulting is committed to the highest standards of educational and other provision for its students, and encourages students to provide itself with thoughtful and constructive feedback. Formal evaluations, together with informal comments and consultations, are used to make improvements to our services and other provisions, and to provide encouragement to staff where appropriate.  </span>
+            </div>
+        </div>
+        <div class="feedback-video">
+            <iframe width="990" height="558" src="https://www.youtube.com/embed/ZQTstq7QWDw" title="Janubiy Koreyadagi talabamiz Bekzoddan videomurojaat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+        
+      <div class="admissions row">
+          <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+              <img src="https://fino.uz/wp-content/uploads/2019/05/aziz.jpg" alt="">
+              <p></p>
+              <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <span id="admission-about-span">Hello! My name is Aziz Norkulov, and my dream was to study in the UK, especially in London. Many thanks to the whole team of Go-Degree Solutions. They did a great job and my dream came true. Now I study the Law at the University of Law in London. And the important thing is that they support you, even when their work is already done. This will help you not to be shocked when you come to another country with a different culture. They are real professionals in this field, and my advice is to trust them. Many thanks to the team again and wish all the best to the students of Go-Degree Solutions</span>
+              <p>Aziz Norkulov</p>
+          </div>
+          <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+              <img src="https://fino.uz/wp-content/uploads/2019/05/islam.jpg" alt="">
+              <p></p>
+              <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <span id="admission-about-span">Hi everybody. My name is Islombek.This recruitment agency, Go-Degree Solutions, is exactly client-oriented. I’ve seen other agencies enough and decided to start my future education with this company. I got my Us visa even I have not been in foreign countries. Thanks to Firuz and their colleagues Mira and other staff. Every prospective student will realize that Go-Degree Solutions will help him/her during every step towards his/her education once he/she connects with them. They provide a wide range of opportunities regarding to your financial condition. As far as I know them, they always work on the best matched option for every client.</span>
+              <p>Islam Akbarov</p>
+            </div>
+            <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+                <img src="https://fino.uz/wp-content/uploads/2019/05/ismoil.jpg" alt="">
+                <p></p>
+                <span id="admission-span">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span id="admission-about-span">Hey everybody) My name is Ismoil. Currently, i’m a student in South Korea thanks to Fino Consulting. Not only did they help me choose the best University drawing on my financial status and academic performance, but gave me a professional guidance on how to deal with the admission process which sometimes can be too overwhelming to cope with single-handedly. I want to express my profound appreciation to Fino Consulting for granting me with an auspicious headstart in my University life…))</span>
+                <p>Ismoil Abdusolihov</p>
+            </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+                <img src="https://fino.uz/wp-content/uploads/2019/05/samandar.jpg" alt="">
+                <p></p>
+                <span id="admission-span">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span id="admission-about-span">Hi there! My name is Samandar Abduhafizov and I am really proud to announce my gratitude to Fino Consulting Agency for their brilliant work in preparation of documents to my university as well as guiding me through this toilsome process. As a result of their effort, I was granted a scholarship of 30% which I’m really satisfied with. I would definitely recommend this place for everyone and especially for those thinking over the application to foreign universities.</span>
+                <p>Samandar Abduhafizov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+                <img src="https://fino.uz/wp-content/uploads/2019/05/zohidbek.jpg" alt="">
+                <p></p>
+                <span id="admission-span">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span id="admission-about-span">Hello! My is Zokhidbek Vasilzoda. In my opinion FINO Consulting is the best choice to the future dreams . Because when I got into trouble to choose a better country to study and also to choose a better university FINO Consulting gave a help. So I just did anything that they asked me. In my view, the way to the future dreams begins from FINO Consulting!</span>
+                <p>Zokhidbek Vasilzoda</p>
+        </div>  
+          <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/05/islomjon.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Hello everyone, my name is Islomjon.I’ve admitted to Sol International School of Woosong university with help of Fino Consulting, despite I got 5.0 score from the IELTS. I’ve 30% scholarship right now.So,to be quite honest, in general I would say that Fino Consulting could create me an opportunity to achieve my goals that are so essential for my future life.Thank you for helping me by heart.</span>
+            <p>Islomjon Juraev</p>
+          </div>
+      </div>
+      <div class="carusel-div"></div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/05/mirzabek.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Biza O’zbekmiza shu uchun so’zimni boshlashdan oldin hammaga Assalomu alaykum deyman. Do’stlar Bu firma ya’ni FINO Consultinga bugun men ozimning eng yuqori balimni beraman nega deseyiz bu firma meni orzularimni amalga oshirishim uchun yelkama yelka turip oxirigacha komaklaship turdi bu yerda ishlidigon Farrux aka, Feruz aka, va Xumoraxonga eng yuksak tashakkur bildiraman. Gapimni qisqa qilaman FINO Consultinga omad faqat yuksak marralar. Hali endi kelayotgan va kelmoqchi bolgan do’stlarimizga esa To’g’ri tanlov qabul qildila deb etaman. FINO Consulting bu sizning omadingiz.</span>
+            <p>Mirzabek Abdullayev</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/05/islom.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">2 oy davomida Toshkentdagi barcha consulting firmalarga borib chiqdim (8-9 ta), barchasini takliflarini hamda ishlash jarayonlarini o’rgandim va FINO Consulting eng yaxshisi ekanini tushunib yetdim. Ularni yordamlari bilan hozir AQSH da magistraturani o’qiyapman! Ayrim firmalar quloqqa lag’mon ilib, baland parvoz gaplar bilan 400-500$ talab qilishadi! FINO Consulting da esa narxlari qulay, bor gapni ochiq oydin gapirishadi, aldash yo’q! VISA ga tayyorlash jarayoni ham o’zgacha uslubda. Ikkilanmasdan faqat FINO ni tanlashingiz mumkin.</span>
+            <p>Islom Ibrohimov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/05/xasan.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">Hi everyoneI’m Khasan who was one of the users of FINO Consulting. This consultant is a reliable choice, if you find it difficult to go abroad to study. Reasons for this are, you will be offered a country (city) and the university to study according to your requirements and financial needs, the work they do is in expert level yet affordable service fees are charged. If FINO says you are bale to go and get your visa to a country of your choice then you will get it. Thanks to FINO I got admission to a Korean University with only 5,5 IELTS.</span>
+          <p>Xasan Atoyev</p>
+        </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/05/natalya.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">It’s my turn to write a review.Let’s start with the fact that I’ve won 100% scholarship in Hanyang University with the help of FINO Consulting. This is not my first experience to apply for universities in Korea, so I can sincerely say that it’s not easy even if you have all requirements. However, I did it mostly because of my consultant’s professionalism. I am glad of my decision to work with FINO Consulting and highly recommend it for you.</span>
+            <p>Natalya Pyagay</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/05/Jakhongir.jpg" alt="">
+            <p></p>
+            <span id="admission-span">            <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Hello everyone ) My name is Jakhongir from Samarkand and I want you to know that I am a student in USA. In our life we always face to choose the better choice. With true advices I did the best decision with choosing the FINO Consulting. They helped me a lot, they’ve just showed me right way. I am so grateful for them. They have best staff and excellent manners. Receptionist is always very kind. I wish them good luck !!!</span>
+            <p>Jakhongir</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/05/bakhodir.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">Hi everyone. My name is Bakhodir. Soon i will start my master degree program in one of the most prestigious universities in Korea with the great aid of FINO Consulting. They helped me all the process: from preparing documents untill visa issues.Therefore i would like to say thanks a lot for all,Mr Farrukh and Firuz.Moreover, if someone wants to study abroad and is looking for how to go, then come and see this agency. I am sure that they will do their best to achieve your goal.thanks for all again.</span>
+          <p>Bakhodir Lutfullayev</p>
+        </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/168iuhhjk.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">This recruitment agency, FINO Consulting, is exactly client-oriented. I’ve seen other agencies enough and decided to start my future education with this company. Every prospective student will realize that FINO Consulting will help him/her during every step towards his/her education once he/she connects with them. And, FINO Consulting provides a wide range of opportunities regarding to your financial condition. As far as I know them, they always work on the best matched option for every client.</span>
+            <p>Khasanboy Mamasharipov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/mu.jpg" alt="">
+            <p></p>
+            <span id="admission-span">            
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Really helpful Consulting ever. When I had difficulty where to apply and what to do, I found Fino Consulting and this helped me soo much, and in February I’m starting my study to get my Bachelor degree in Korea. I’m really feeling splendid to know about this Consulting center. People working here are really nice. Thank you for helping me guys!</span>
+            <p>Muhammadsodiq Qodirov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/06/Shukur-Shokirjonov-.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">To be honest it is difficult to describe FINO Consulting’s opportunities for student in a word. In the past studying in Korea was my one of my serious targets and FINO Consulting helped me to achieve. Now I’m studying at Solbridge International School of Business. It is really easy with them. So I will highly appreciate them ’till the end of my life</span>
+          <p>Shukur Shokirjonov</p>
+        </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Shoxrux-Toxirboyev-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Bilasizmi Men bu Agentstva xaqida eshitganimda boshqa Agentstvalarga o’xshab yordam beraolmaydi deb o’ylagandim xozrda aksincha bu Agentstva Menga Juda katta yordam berdi va Men bundan Minnaddorman. FINO Consulting is the best!</span>
+            <p>Shoxrux Toxirboyev</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Xumoyun-Xushvaqtov.jpg" alt="">
+            <p></p>
+            <span id="admission-span">            <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Thanks to FINO Consulting, i had a great chance to start my major Accounting in Monroe College in New Rochelle, New York. Support and help was amazing to start my journey in USA. I would strongly recommend FINO Consulting for you to take a big step confidently to achieve your dreams.</span>
+            <p>Xumoyun Xushvaqtov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/06/Davronkhon-Shukurov-.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">I strongly recommend FINO Consulting agency if you want to enter to an excellent university fast and in a convenient simply way. With the help of highly qualified director Feruz Ikramov and his assistant you will make your dream come true. Respect!</span>
+          <p>Davronkhon Shukurov</p>
+        </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Ahmad-Isayev-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">It is not easy to go abroad and study there. By contrast, it is easy with FINO Consulting. They do their best that students will be in time at chosen country and they can give advice any time of the day.</span>
+            <p>Ahmad Isayev</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Nargiz-Ismailova-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">            
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">This is the best agency in the capital!!! They helped me a lot. Really respect them. Thank you so much FINO Consulting!!!</span>
+            <p>Nargiz Ismailova</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/06/Violett-Kim-.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">Hi! I want to tell you about one grate Consulting which helped me a lot and offered me several variants where I can apply for. At first I had no idea what to do but then I found Fino Consulting and everything became so much easier! I’ve started my IELTS course and I’m going to apply for grant in Korea. Thank you for your professionalism and your work!</span>
+          <p>Violett Kim</p>
+        </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Muhammad-Egamkulov-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Presently I am a student of SolBridge international school of business in Korea thanks to FINO Consulting. It helped me when I so was confused about my future education. I think due to the invaluable advice and help of Firuz Ikramov I found good path to my perspective life. I am very grateful.</span>
+            <p>Muhammad Egamkulov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Sherzod-Tohirov-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">            
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">My name is Sherzod Tohirov and I have been received to SolBridge International School of Business as an MBA student for the fall semester with the assistance of Fino Consulting. During almost 5 months Feruz aka and Khumora helped me greatly. I appreciated from this agency’s services. I believe for studying on the abroad this organisation is the best one to come dreams true. I am very grateful from the staff of Fino Consulting and its head Feruz aka.</span>
+            <p>Sherzod Tohirov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/06/Akram-Saidov-.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">FINO Consulting consulting service agency can facilitate any student’s difficulties who are curious to continue their academic careers in overseas.With the help of this agency favour, we applicants’ ambitions are coming true in reality and reaching our goals.They can make in easy all steps in terms of finding affordable university, applying to it and taking visa eligibility. Thanks for any member of FINO Consulting workers and I wish all the best for their future deeds.</span>
+          <p>Akram Saidov</p>
+        </div>
+      </div>
+
+      <div class="text">
+         <div class="text-div">
+            <h2>Our priority is to choose the educational institution that will suit parents at a price and students in terms of level.</h2>
+            <p>If you decide to entrust such an important choice as choosing an educational institution for us, then you are not mistaken. FINO provides professional educational consulting to students wishing to gain higher education abroad at TOP ranking universities and colleges worldwide. We are in the market since 2012. We guarantee honesty and diligence through all the process of admission and visa services.</p>
+            <p> Our university consultants are fully experienced and trained by trusted university partners and the British Council, and are here to help guide you through each step of the application process to any world university, college or language school.</p>
+            <h2>So why do you need us as an Educational Agent?</h2>
+            <p>Today, many of those who intend to enter a foreign institution of higher education, are striving to independently go through the whole process, based on information received from the Internet. Others seek help from a specialised educational agency.</p>
+            <p>What are the advantages of the second way? Or we will tell differently, what pluses, if you address to us FINO Consulting! First of all, we note that a thorough analysis and comparison of various options for admission will require a tremendous amount of time for a future student-it is simply impossible to explore this huge market in a single day or a week of hard work.</p>
+            <p>No information received through the Internet or from booklets does not reflect a completely real situation with the arrival of “here and now”. An experienced consultant who works “individually”, that is, with each individual client, can prompt in time what can be waved, and what not worth trying for. He will indicate the alternatives. Strength of professional managers of educational agencies is not just knowledge of the market of educational services, but also acquaintance with specific educational institutions, their leadership, representatives of their international department.</p>
+         </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Inomjon-Amirov-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">FINO Consulting is very helpful for those who want to study abroad. The service they provide is amazing. Perfect job. Respect you all.</span>
+            <p>Inomjon Amirov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Shokhsanam-Kadirova-.jpg " alt="">
+            <p></p>
+            <span id="admission-span">            
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">It is amazing Consulting centre they are work so hard with every client and so politely</span>
+            <p>Shokhsanam Kadirova</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/06/Sayriddin-Abdukarimov-.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">I recommend FINO Consulting to all students who want to higher degree abroad and get chances to get scholarship.</span>
+          <p>Sayriddin Abdukarimov</p>
+        </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Shohruh-Gubayev-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">FINO consulting is the best.</span>
+            <p>Shohruh Gubayev</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Sirojiddin-Tulkunov-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">            
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Eto somaya aktivnaya Agenstva v Tashkente vsem studentam sovetayu rabotat snimi</span>
+            <p>Sirojiddin Tulkunov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/06/Jakhongir-Kudratov-.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">If you are facing difficulties while choosing what institution to study in abroad or collecting document to apply, I highly recommend FINO Consulting to help you.</span>
+          <p>Jakhongir Kudratov</p>
+        </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Sunnat-Abdukhakimov-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">I have applied to Master of Science in US, and was successfully accepted. Moreover, I was able to receive Visa, for which I am thankful for Fino Consulting and all staff members who helped me to achieve this aim</span>
+            <p>Sunnat Abdukhakimov</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Ahror-Abdullayev-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">            
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">SALOM Mani ismim Ahror. Mani Koreyaga oqishga borishda Fino Consultingning hizmatlari kotta bovotti.Tariflari qulay,manga maqul keldi.Horijiy davlatlada oqishga qiziqishi borla FINO CONSULTINGga murojat qilishlaring tavsiya qilaman!</span>
+            <p>Ahror Abdullayev</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/06/Shahboz-Saliyev-.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">Having taken help of Fino, I could get 100% scholarship for my tuition fee, which i am immensely grateful for. Friendly staff and inspirational leader make this center stand out. Hope everyone will find this place very helpful.</span>
+          <p>Shahboz Saliyev</p>
+        </div>
+      </div>
+      <div class="admissions row">
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Ziyoev-Shakhrizod-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Hello! My name is Shakhrizod. I was granted visa to the South Korea at Endicott College. I am so happy. Thanks to Fino Consulting members for helping me. If you have dreams to study abroad, come to Fino Consulting, get advices, collect necessary documents, get visa and fly oversea for study as me. Believe, your dreams will come true with the help of “Great People” (Fino Consulting staff)!!! Thanks for everything.,???</span>
+            <p>Ziyoev Shakhrizod</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+            <img src="https://fino.uz/wp-content/uploads/2019/06/Amirkhon-Mukhamadiev-.jpg" alt="">
+            <p></p>
+            <span id="admission-span">            
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span id="admission-about-span">Hi everyone. Few days ago, I accepted to Endicott College of Woosong University, for what I am really thankful for Fino Consulting group. It was a pleasure getting to meet you and seeing how well your team works together. So, I wish your team great success. Thank you again for all your efforts that helped to pave the way for me to South Korea.</span>
+            <p>Amirkhon Mukhamadiev</p>
+        </div>
+        <div class="admissions-div col-xl-4 lg-4 md-6 sm-12">
+          <img src="https://fino.uz/wp-content/uploads/2019/06/Toshpulatov-Suxrob-.jpg" alt="">
+          <p></p>
+          <span id="admission-span">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <span id="admission-about-span">2018 talaba bölish nasib etdi. Bunga erishish uchun menga yaqindan yordam berishgan FINO Consulting hodimlariga chin yurakdan rahmat deyman. Ishlariga omad, rivoj tilab qolaman. Bolajak talabalarga ham omad tilab qolaman. Nufuzli universitetlarda oqib, yurtimiz rivojlanishiga o’z hissamizni qo’shish hammamizga nasib etsin. Hammaga omad! Yana bir bor rahmat deb qolaman FINO Consulting hodimlariga</span>
+          <p>Toshpulatov Suxrob</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        <div class="footer_div">
+            <div class="footer_body">
+                <div class="footer_body_div1">
+                    <div class="footer_body_div01 animate__fadeIn animate__fadeInLeft animate__animated">
+                       <h1>Start your education journey with us</h1>
+                       <a href="">
+                        <img src="https://fino.uz/wp-content/uploads/2019/05/logo-fino.png" alt="">
+                      </a>
+                      <p>Website Crafted by <a href=""><img id="fazon_img" src="https://fino.uz/wp-content/uploads/2019/05/fazon_logo_60x.png" alt=""></a></p>
+
+                    </div>
+                    <div class="footer_body_div02 animate__fadeIn animate__fadeInRight animate__animated">
+                        <a href="tel:908056444">
+                          <h1>+998 90 805-64-44</h1>
+                        </a>
+                        <a href="tel:909606445">
+                          <h1>+998 90 960-64-45</h1>
+                        </a>
+                        <a href="tel:909656445">
+                          <h1>+998 90 965-64-45</h1>
+                        </a>
+                        <a href="tel:951966445">
+                          <h1>+998 95 196-64-45</h1>
+                        </a>
+                        <a id="fino_location" href="https://g.page/finouzbekistan?share">Neus Business Center, 76 House, office 308,
+                          Arnasay Street, Tashkent, Uzbekistan</a>
+                        <a id="info_fino" href="">info@fino.uz </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_div1">
+            <strong>©FINO Consulting 2024 </strong>
+        </div>
+    </footer>
+    
+    <a id="down_up" href="#header">
+      <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
+     
+  </body>
+</html>

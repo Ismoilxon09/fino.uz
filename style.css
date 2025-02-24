@@ -1,0 +1,3048 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none !important;
+}
+header{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    height: 10vh;
+    /* background-color: blue; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.div_finoimg{
+    width: 20%;
+    height: 10vh;
+    /* background-color: rgb(42, 165, 93); */
+    display: inline-flex;
+    align-items: center;
+}
+.about_fino{
+    width: 20%;
+    height: 10vh;
+    /* background-color: rgb(155, 42, 165); */
+    display: inline-flex;
+    align-items: center;
+    /* border-right: solid 1px gray; */
+}
+.div_tel{
+    width: 17%;
+    height: 10vh;
+    /* background-color: rgb(42, 165, 134); */
+    display: inline-flex;
+    flex-direction: column;
+    letter-spacing: .02em;
+    /* border-right: solid 1px gray; */
+}
+.div_tel01{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+}
+.div_tel01>i{
+    font-size: 10pt;
+    color: rgb(151, 151, 151);
+}
+.div_tel01>span{
+    font-size: 10pt;
+    color: rgb(151, 151, 151);
+    font-weight: 600;
+    margin-left: 10px;
+}
+#tel_a{
+    text-decoration: none;
+    font-size: 15pt;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+.div_contacts{
+    width: 20%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: inline-flex;
+    align-items: center;
+}
+.offcanvas_contacts{
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+.offcanvas{
+    width: 30% !important;
+}
+.offcanvas>a{
+    width: 100%;
+    height: min-content;
+}
+.div_offcanvas_body{
+    width: 100%;
+    height: 10vh;
+    /* background-color: #1E73BE; */
+    border-bottom: solid 1px rgb(209, 209, 209);
+    padding-left: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+.div_offcanvas_body:hover{
+    background: none;
+    transition: 1s;
+}
+.div_offcanvas_body>span{
+    color:rgba(102, 102, 102, 0.85);
+    font-weight: 600;
+}
+#i_facebook{
+    font-size: 25pt;
+    color: rgb(16, 16, 95);
+}
+#i_telegram{
+    font-size: 26pt;
+    color: rgb(16, 16, 95);
+    margin-left: 10px;
+}
+.mycontacts2{
+    width: 14%;
+    height: 6vh;
+    /* background-color: blue; */
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: brown;
+}
+.mycontactsyt{
+    width: 14%;
+    height: 6vh;
+    /* background-color: blue; */
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: brown;
+}
+.mycontactsins{
+    width: 14%;
+    height: 6vh;
+    /* background-color: blue; */
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: brown;
+}
+.mycontacts3{
+    width: 14%;
+    height: 6vh;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(143, 255, 78);
+}
+.mycontactslc{
+    width: 14%;
+    height: 6vh;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(143, 255, 78);
+}
+.select_offcanvas{
+    width: 100%;
+    height: 10vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#select_l{
+    color: rgba(102, 102, 102, 0.85);
+    width: 85%;
+    height: 6vh;
+    background: none;
+    border: none;
+    outline: none !important;
+}
+#finoimg{
+    width: 30%;
+}
+#about_h5{
+    font-size: 14pt;
+}
+.head_div{
+    width: 100%;
+    height: 6vh;
+    background-image: linear-gradient(to top left, rgb(9, 86, 152), rgb(40, 146, 239));
+    display: inline-flex;
+    justify-content: center;
+}
+.head_div01{
+    width: 80%;
+    height: 6vh;
+    /* background-color: aqua; */
+    display: inline-flex;
+    justify-content: space-between;
+}
+.head_div02{
+    width: 60%;
+    height: 6vh;
+    /* background-color: brown; */
+    display: inline-flex;
+}
+.head_div02>ul{
+    width: 100%;
+    height: 6vh;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    margin-left: -5%;
+}
+
+.head_div02>ul>li>a{
+    width: 20%;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 11pt;
+}
+.head_div02>ul>li>a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+.head_div03{
+    width: 10%;
+    height: 6vh;
+    /* background-color: greenyellow; */
+    display: inline-flex;
+    justify-content: center;
+}
+#select_language{
+    width: 85%;
+    height: 6vh;
+    background: none;
+    border: none;
+    outline: none !important;
+    color: white;
+}
+#option_til{
+    color: black;
+}
+.div_carusel{
+    width: 100%;
+    height: 75vh;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+.carousel-item{
+    width: 100%;
+    height: 75vh !important;
+}
+.crs_itm{
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/singapore.jpg);
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+}
+.crs_itm1{
+    background-image: url(https://fino.uz/wp-content/uploads/2019/04/slide-6-bg.jpg);
+    background-size: cover;
+}
+.carousel_div{
+    width: 40%;
+    height: 60vh;
+    /* background-color: red; */
+    margin-top: 7.5vh;
+    margin-left: 5%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.carousel_div1{
+    width: 40%;
+    height: 60vh;
+    margin-top: 7.5vh;
+    margin-left: 5%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.carousel_h1{
+    width: 100%;
+    height: 15vh;
+    /* background-color: aqua; */
+    animation-duration: 2s;
+}
+.carousel_h01{
+    width: 80%;
+    height: 10vh;
+    /* background-color: aqua; */
+    animation-duration: 2s;
+
+}
+.carousel_h1>h5{
+    font-size: 16pt;
+}
+.learn_more{
+    width: 30%;
+    height: 7vh;
+    background: linear-gradient(rgb(32, 130, 216) 0%, rgb(24, 111, 188) 100%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5vh;
+}
+.learn_more>h5{
+    margin-top: 5px;
+}
+.apply_now{
+    width: 30%;
+    height: 7vh;
+    background-color: #da8404;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5vh;
+}
+.apply_now>h5{
+    margin-top: 5px;
+}
+main{
+    width: 100%;
+}
+.main_div{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: yellowgreen; */
+    display: inline-flex;
+    flex-direction: column;
+}
+.main_about{
+    width: 100%;
+    height: 60vh;
+    /* background-color: blueviolet; */
+    display: inline-flex;
+    justify-content: center;
+}
+.main_about1{
+    width: 100%;
+    height: 40vh;
+    /* background-color: rgb(226, 43, 70); */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about_div{
+    width: 60%;
+    height: 60vh;
+    /* background-color: blue; */
+    display: inline-flex;
+    animation-duration: 2s;
+}
+.about_text{
+    width: 55%;
+    height: max-content;
+    /* background-color: yellow; */
+    animation-duration: 2s;
+}
+.about_text>h2{
+    font-size: 21pt;
+    color: #0a0a0a;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    line-height: 1.3;
+    margin-top: 5vh;
+}
+.call_now{
+    width: 30%;
+    height: 6vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: brown;
+    margin-top: 5vh;
+    box-shadow: inset -0.01em -0.1em 0 0 rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+.call_now>h5{
+    margin-top: 5px;
+}
+.call_now:hover #phone_icon{
+    display: inline-block;
+    margin-right: 10px;
+    transition: 0.5s !important;
+}
+.call_now:hover{
+    background-color: rgb(95, 33, 33);
+    transition: 0.5s;
+}
+#phone_icon{
+    display: none;
+}
+.about_img{
+    width: 45%;
+    height: 60vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_img>img{
+    width: 90%;
+    background: none;
+    animation-duration: 2s;
+}
+.about_divcha{
+    width: 25%;
+    height: 33vh;
+    /* background-color: blueviolet; */
+    border-radius: 15px;
+    border-left: solid 5px  #1E73BE !important;
+    transform: translate3d(0px, -4.3px, 0px);
+    backface-visibility: hidden;
+    opacity: 0.98;
+    margin-left: 2%;
+    animation-duration: 2s;
+}
+.about_divcha:hover{
+    box-shadow: 3px 2px 1px rgb(241, 241, 241) !important;
+    transition: 0.7s;
+}
+.about_divcha>h5>img{
+    width: 20%;
+    margin-left: 10%;
+}
+.div_services{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: #1E73BE; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div_services1{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: #1E73BE; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services_text{
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.services_text1{
+    width: 80%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: inline-flex;
+    justify-content: auto;
+    align-items: center;
+}
+.services_img{
+    width: 80%;
+    /* height: 90vh; */
+    /* background-color: brown; */
+    display: inline-flex;
+    /* justify-content: space-around; */
+}
+.img_center{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/usa-1024x576.png);
+    background-size: cover !important;
+    padding: 0%;
+}
+.usa_img:hover{
+    background-color: #1e73bead !important;
+    background-size: 130%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+.usa_img{
+    width: 100%;
+    height: 30vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.usa_img>a{
+    color: white;
+    margin-left: 20px;
+}
+.usa_img>a>span{
+    background-color: rgb(226, 48, 48);
+    font-size: 15pt;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img_center1{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/uk-1024x685.jpg);
+    background-size: cover;
+    padding: 0%;
+}
+.img_center1:hover{
+    background-color:rgba(94, 94, 196, 0.548);
+}
+.img_center2{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/Australia-1024x649.jpg);
+    background-size: cover;
+    padding: 0%;
+}
+
+.img_center3{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/south-korea-1024x632.jpg);
+    background-size: cover;
+    padding: 0%;
+}
+
+.img_center4{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/germany-1024x663.jpg);
+    background-size: cover;
+    padding: 0%;
+}
+
+.img_center5{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/francee-1024x455.jpg);
+    background-size: cover;
+    padding: 0%;
+}
+.img_center6{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/denmark-1024x576.jpg);
+    background-size: cover;
+    padding: 0%;
+}
+.img_center7{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/hungary-1024x610.jpg);
+    background-size: cover;
+    padding: 0%;
+}
+.img_center8{
+    width: 30%;
+    height: 30vh;
+    background-color: rgb(57, 80, 129);
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 0%;
+}
+.img_canada{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/canada.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_newzeland{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/New-Zealand.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_ireland{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/Ireland.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_dubai{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/dubai2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_china{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/china.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_turkey{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/turkey.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_cyprus{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/cyprus-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_malaysia{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/malaysia-1024x506.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_singapore{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/singapore-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_russia{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/russia-1024x427.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_poland{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/poland-1024x698.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_netherlands{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/netherlands-1024x682.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_austria{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/Austria-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_malta{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/Malta-1024x740.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_spain{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/spain-1024x682.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_italy{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/italy-1024x512.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_switzerland{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/switzerland-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_lithuania{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/lithuania-1024x681.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_latvia{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/latvia-1024x728.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_slovenia{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/slovenia-1024x683.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_sweden{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/sweden-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_norway{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/Norway-1024x512.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_georgia{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/georgia-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_finland{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/helsinki-finland-3-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_estonia{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/estonia-1024x427.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+.img_romania{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/romania-1024x655.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+}
+#btn_menu{
+    font-size: 15pt;
+}
+.main_div2{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/webg.jpg);
+    margin-top: 10vh;
+    background-size: cover !important;
+    display: inline-flex;
+    align-items: center;
+}
+.main_div02{
+    width: 40%;
+    height: 50vh;
+    margin-left: 15%;
+    color: white;
+}
+.multicaruseldiv{
+    width: 100%;
+    height: 45vh;
+    display: inline-flex;
+    flex-direction: column;
+}
+.multicaruseltext{
+    width: 100%;
+    height: 10vh;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.multicaruselbody{
+    width: 100%;
+    height: 35vh;
+    display: inline-flex;
+    justify-content: center;
+}
+.carousel_example{
+    width: 80%;
+    height: 35vh;
+    display: inline-flex;
+    padding: 0%;
+}
+.container2{
+    width: 100%;
+    height: 35vh;
+    display: inline-flex;
+    padding: 0%;
+}
+.MultiCarousel1{
+    width: 100%;
+    height: 35vh;
+    display: inline-flex;
+}
+.multi{
+    width: 100%;
+    height: 35vh;
+    display: inline-flex;
+}
+.carousel_item1{
+    width: 100%;
+    height: 35vh;
+    display: inline-flex !important;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.carousel_item2{
+    width: 100%;
+    height: 35vh;
+    display: inline-flex !important;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.carousel_img_div{
+    width: 7.5%;
+    height: 13vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/04/t-dilshod.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    margin-top: 5vh;
+}
+.carousel_img_div1{
+    width: 7.5%;
+    height: 13vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/04/t-aziz.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    margin-top: 5vh;
+}
+.carousel_text{
+    width: 80%;
+    height: 25vh;
+    text-align: start;
+    display: inline-flex;
+    align-items: end;
+}
+footer{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+.footer_div{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/binokiod.jpg);
+    background-size: cover;
+    display: inline-flex;
+    align-items: center !important;
+
+}
+.footer_div1{
+    width: 100%;
+    height: 8vh;
+    color: rgba(255,255,255,0.5);
+    background-color: #141414;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_body{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+.footer_body_div1{
+    width: 80%;
+    height: 60vh;
+    display: inline-flex;
+
+}
+.footer_body_div01{
+    width: 42%;
+    height: 60vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    animation-duration: 2s;
+}
+.footer_body_div01>a>img{
+    width: 60%;
+    margin-top: 10px;
+}
+.footer_body_div01>p{
+    font-family: "Dancing Script", sans-serif;
+    margin-top: 20px;
+}
+.footer_body_div01>h1{
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-size: 20pt;
+    font-weight: 500;
+}
+#fazon_img{
+    width: 15%;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.footer_body_div02{
+    width: 50%;
+    height: 60vh;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    animation-duration: 2s;
+}
+.footer_body_div02>a>h1{
+    color: #faa320;
+    font-size: 25pt;
+    font-weight: 400 !important;
+    touch-action: manipulation;
+    line-height: 2rem;
+}
+.footer_body_div02>a>h1:hover{
+    color: #000000;
+
+}
+#fino_location{
+    margin-top: 5vh;
+    font-size: 15pt;
+    color: #000000;
+}
+#info_fino{
+    font-size: 17pt;
+    color: #faa320;
+}
+#info_fino:hover{
+    color: #000000;
+}
+.us_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/usa1.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.uk_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/uk1.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.uk_head_div:hover>div{
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+}
+.australia_head_div:hover>div{
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+}
+.skorea_head_div:hover>div{
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+}
+.canada_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+}
+.newzeland_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+}
+.ireland_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+}
+.dubai_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+}
+.germany_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+    transform: translate3d(0px, -11.41px, 0px);
+
+}
+.france_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+    transform: translate3d(0px, -11.41px, 0px);
+
+}
+.denmark_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+    transform: scale(0px, -11.41px, 0px);
+
+}
+.denmark_head_div:hover{
+    background-size: 150%;
+    transition: all 1s ease-in-out;
+}
+.china_head_div:hover{
+    background-size: 150%;
+    transition: all 1s ease-in-out !important;
+    background: linear-gradient( rgba(0, 0, 0, 0.4 url(https://fino.uz/wp-content/uploads/2019/05/china.jpg))) !important;
+}
+.china_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+    transform: scale(0px, -11.41px, 0px);
+
+}
+.poland_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+    transform: scale(0px, -11.41px, 0px);
+
+}
+.turkey_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+    transform: scale(0px, -11.41px, 0px);
+
+}
+.cyprus_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s;
+    transform: scale(0px, -11.41px, 0px);
+
+}
+.malaysia_head_div:hover{
+
+    transition: 1s !important;
+    background-size: 120%;
+}
+.malaysia_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+    background-size: 120%;
+}
+.singapore_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.russia_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.netherlands_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.austria_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.malta_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.spain_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.italy_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.georgia_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.finland_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.estonia_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.romaina_head_div:hover>div{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: 1s !important;
+    transform: scale(0px, -11.41px, 0px) !important;
+}
+.australia_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/Australia.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+}
+.skorea_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/south-korea.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.canada_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/canada.jpg);
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.canada_head_div:hover{
+    transform: scale(110%);
+    transition: 1s;
+    
+}
+.newzeland_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/New-Zealand.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.ireland_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/Ireland.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.dubai_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/dubai2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.germany_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/germany.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.france_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/francee.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.denmark_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(90deg rgba(0, 0, 0, 0.4, url(https://fino.uz/wp-content/uploads/2019/05/denmark.jpg))) !important;
+
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    
+}
+.china_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/china.jpg);
+
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    
+}
+.turkey_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/turkey.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    
+}
+.cyprus_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/cyprus-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    
+}
+.malaysia_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/malaysia.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.singapore_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/singapore.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.russia_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/russia.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.poland_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/poland.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.netherlands_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/netherlands.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.austria_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/Austria.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.malta_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/Malta.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.spain_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/spain.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.italy_head_div:before {
+    content: "";
+    background: 
+color-mix(in srgb, var(--background-color), transparent 50%) !important;
+    position: absolute !important;
+    inset: 0;
+    z-index: 2;
+}
+.italy_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/italy.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.lithuania_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/lithuania.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.latvia_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/latvia.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.slovenia_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/slovenia.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.norway_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/sweden.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.georgia_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/georgia.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.finland_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/helsinki-finland-3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.estonia_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/06/estonia.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.romaina_head_div{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/romania.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.head_div_text{
+    width: 40%;
+    height: 40vh;
+    /* background-color: #faa320; */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.head_div_text>h1{
+    font-size: 35pt;
+    line-height: 1.2 !important;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.head_div_text>span{
+    width: max-content;
+    background-color: rgb(230, 0, 0);
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 10px;
+}
+#down_icon{
+    margin-top: 5vh;
+    color: white;
+}
+#down_up{
+    width: 3.5% !important;
+    background-color: #1E73BE;
+    height: 7.4vh;    
+    display: inline-flex;
+    align-items: center !important;
+    justify-content: center;
+    border-radius: 50% !important;
+    color: white;
+    position: fixed;
+    margin-left: -100px;
+    margin-top: 60vh;
+    z-index: 3;
+}
+
+.ol_div{
+    width: 100%;
+    height: max-content;
+    margin-top: 10vh;
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 10%;
+}
+.ol_div2{
+    width: 100%;
+    height: max-content;
+    margin-top: 10vh;
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 10%;
+}
+.ol_div01{
+    width: 100%;
+    height: max-content;
+    margin-top: 10vh;
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 10%;
+}
+.ol_div>ol{
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: lightblue;
+    column-width: 200px;
+    column-gap: 30px;
+    margin-top: 5vh;
+}
+.ol_div2>ol{
+
+    margin-top: 5vh;
+}
+.ol_div2>ul{
+
+    margin-top: 5vh;
+}
+.ol_div01>ul{
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: lightblue;
+    column-width: 200px;
+    column-gap: 30px;
+    margin-top: 5vh;
+}
+.ol_div>ol>li{
+    width: max-content;
+    margin-left: 20px;
+    color: black;
+    margin-top: 10px;
+}
+.ol_div2>ol>li{
+    width: max-content;
+    margin-left: 20px;
+    color: black;
+    margin-top: 10px;
+}
+.ol_div2>ul>li{
+    width: max-content;
+    margin-left: 20px;
+    color: black;
+    margin-top: 10px;
+}
+.ol_div01>ul>li{
+    width: max-content;
+    margin-left: 20px;
+    color: black;
+    margin-top: 10px;
+}
+#span_list{
+    font-size: 20pt;
+}
+.div_costs{
+    width: 100%;
+    height: max-content;
+    display: inline-flex;
+    justify-content: center;
+}
+.div_costs1{
+    width: 71%;
+    height: max-content;
+    background: linear-gradient(#1e73be 100%, rgb(0, 140, 255)0%);
+    color: white;
+    padding: 20px;
+    margin-top: 10vh;
+}
+#span_cost{
+    font-size: 22pt;
+    font-weight: 500;
+}
+#p_1{
+    margin-top: 10px !important;
+}
+#p-2{
+    margin-left: 10px;
+    font-weight: 500;
+    color: #ffcc00;
+}
+.div_costs1>ol>li{
+    margin-top: 10px;
+    font-weight: 450;
+}
+.toolbar_div{
+    width: 100%;
+    /* background: #000; */
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+.toolbar_text{
+    width: 100%;
+
+    /* background-color: #be1e1e; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.toolbar_body1{
+    width: 71%;
+    /* background-color: #1e21be; */
+}
+.toolbar_line{
+    width: 100%;
+    height: max-content;
+    /* background-color: #ffcc00; */
+    display: inline-flex;
+    justify-content: center;
+}
+#btnradio{
+    border-radius: 20px !important;
+}
+.toolbarul{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+.toolbarul>ul>li{
+    margin-top: 10px;
+}
+.countries_list{
+    width: 100%;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/ourcompany-map.jpg);
+    background-size: cover;
+    background-color: rgba(40, 40, 40, 0.83);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+
+}
+
+.countries_div{
+    width: 71%;
+    /* background-color: rgb(2, 51, 95); */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+#listh1{
+    font-size: 22pt;
+}
+#Countries_ul{
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: lightblue;
+    column-width: 200px;
+    column-gap: 30px;
+    width: 100%;
+    padding: 7px 0 7px 25px;
+}
+#Countries_ul>li{
+    list-style: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-bottom: solid 1px rgb(124, 123, 123);
+
+}
+#Countries_ul>li>a{
+    color: white;
+    text-align: center;
+}
+#lieng{
+    list-style: none !important;
+    margin-left: -20px !important;
+    font-size: 14pt;
+    border-bottom: none !important;
+}
+#lieurope{
+    list-style: none !important;
+    margin-left: -10px !important;
+    font-size: 14pt;
+    border-bottom: none !important;
+}
+.tab button {
+    width: max-content;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding:  16px;
+    transition: 0.3s;
+    height: 5vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: #000000;
+    transition: 1s;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #1E73BE;
+    color: white;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+  }
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+.countries_about{
+    width: 100%;
+    height: max-content;
+    display: inline-flex;
+    justify-content: center;
+}
+.countries_about1{
+    width: 65%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.divabout{
+    width: 100%;
+    height: 10vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/milano.jpg);
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+    justify-content: center;
+}
+.divabout01{
+    width: 80%;
+    height: 10vh;
+    padding-right: 10px;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 15pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-text{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+.main-text-div{
+    width: 60%;
+    padding:40px  20px 40px 20px;
+}
+.main-text-div>p{
+    font-weight: 500 !important;
+    border-left: solid 3px #001eff;
+    padding-left: 10px;
+}
+.img-div{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+.img-div01{
+    width: 70%;
+    height: 55vh;
+    padding: 40px;
+    display: inline-flex;
+    align-items: center;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/homepage-1-1024x386.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-div02{
+    width: 70%;
+    height: 55vh;
+    padding: 40px;
+    display: inline-flex;
+    align-items: center;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/students_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-text{
+    width: 45%;
+    height: 30vh;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 300 !important;
+}
+#learn-how{
+    width: 8% !important;
+    height: 5vh;
+    background-color: #6072fb;
+    color: white;
+    margin-top: 20px !important;
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14pt;
+    font-weight: 500;
+}
+#contactus{
+    width: 8% !important;
+    height: 5vh;
+    background-color: none;
+    color: white;
+    margin-top: 20px !important;
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14pt;
+    font-weight: 500;
+    margin-left: 9%;
+    border: solid 2px white;
+}
+#contactus1{
+    padding: 8px 20px 8px 20px;
+    background-color: none;
+    color: white;
+    margin-top: 5vh !important;
+    font-size: 14pt;
+    font-weight: 500;
+    border: solid 2px white;
+    position: absolute;
+}
+#contactus:hover{
+    background-color: white;
+    color: rgb(0, 0, 0) !important;
+    transition: 0.3s;
+}
+#contactus1:hover{
+    background-color: white;
+    color: rgb(0, 0, 0) !important;
+    transition: 0.3s;
+}
+.about-employee{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.employee-div{
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.employee-img{
+    width: 30%;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.employee-img>img{
+    width: 60%;
+    border-radius: 50%;
+}
+.employee-img>img:hover{
+    transform: scale(110%);
+    transition: 0.5s;
+}
+.employee-img>p{
+    font-size: 15pt;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.employee-img>span{
+    font-size: 11pt;
+    font-weight: 500;
+    opacity: .7;
+}
+.a{
+    width: max-content;
+    display: inline-flex;
+    padding: 0px 20px;
+     margin-top: 10px;
+     margin-right: 10px;
+}
+.a>a{
+   margin-left: 10px; 
+   background-color: #001eff;
+   border-radius: 50%;
+   color: white;
+   padding: 4px 8px;
+   
+}
+.employee-text{
+    width: 60%;
+    font-size: 12pt;
+    font-weight: 500;
+}
+.admissions{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center !important;
+    align-items: start !important;
+    padding-top: 40px;
+    margin-top: 5vh;
+    text-align: center;
+}
+.admissions-div{
+    width: 25%;
+    height: max-content;
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+.admissions-div1{
+    width: 25%;
+    height: 80vh;
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+.admissions-div>img{
+    width: 51%;
+    height: 25vh;
+    border-radius: 50%;
+}
+.admissions-div1>img{
+    width: 51%;
+    height: 25vh;
+    border-radius: 50%;
+}
+.admissions-div>img:hover{
+    transform: scale(110%);
+    transition: 0.5s;
+}
+.admissions-div1>img:hover{
+    transform: scale(110%);
+    transition: 0.5s;
+}
+.admissions-div>p{
+    font-size: 15pt;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.admissions-div1>p{
+    font-size: 15pt;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.admissions-div>span{
+    font-size: 11pt;
+    font-weight: 500;
+    opacity: .7;
+    text-align: center;
+}
+.admissions-div1>span{
+    font-size: 11pt;
+    font-weight: 500;
+    opacity: .7;
+    text-align: center;
+}
+#admission-span{
+    margin-top: -15px;
+
+}
+#admission-about-span{
+    margin-top: 15px;
+}
+.text{
+    width: 100%;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/ourcompany-map.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    justify-content: center;
+}
+.text-div{
+    width: 60%;
+    padding: 40px 30px 30px 30px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+.text-div>h2{
+    font-size: 1.7em;
+    line-height: 1.3;
+}
+.div_text2{
+    width: 100%;
+    margin-top: 5vh;
+    display: inline-flex;
+    justify-content: center;
+}
+.div_text3{
+    width: 100%;
+    margin-top: 5vh;
+    display: inline-flex;
+    justify-content: center;
+}
+.div-text{
+    width: 60%;
+    padding: 40px 30px 30px 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Lato", sans-serif;
+}
+.div-text2{
+    width: 65%;
+    padding: 40px 30px 30px 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Lato", sans-serif;
+}
+.div-text>h2{
+    font-size: 1.7em;
+    line-height: 1.3;
+}
+.div-text2>h2{
+    font-size: 1.7em;
+    line-height: 1.3;
+}
+.conditions-div{
+    width: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    background-image: linear-gradient(to top right, rgb(9, 86, 152), rgb(40, 146, 239));
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.consultingdiv{
+    width: 65%;
+
+    padding: 20px 30px 30px 30px;
+    color: white;
+}
+.consultingdiv>h2{
+    font-size: 20pt;
+}
+.consultingdiv>ul{
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: lightblue;
+    column-width: 200px;
+    column-gap: 30px;
+}
+.consultingdiv>ul>li{
+    list-style: none;
+    position: relative;
+    padding: 7px 0 7px 25px;
+    margin: 0;
+    border-bottom: 1px solid #ecececc5;
+}
+.consultingdiv>ul li.bullet-checkmark:before, ul li.bullet-arrow:before, ul li.bullet-star:before{
+    font-family: 'fl-icons';
+    left: 0;
+    position: absolute;
+    font-size: 16px;
+    color: #7a9c59;
+}
+.consultingdiv>a{
+    padding: 8px 20px 8px 20px;
+    background-color: aliceblue;
+    animation-delay: .1s;
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1 !important;
+    color: gray;
+    font-size: 15pt;
+}
+.visa{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+.visa-div{
+    width: 70%;
+    padding: 20px 40px 20px 40px;
+    background-color: #1e73be;
+    display: inline-flex;
+    align-items: center;
+}
+.visa-text{
+    width: 60%;
+    height: max-content;
+    padding: 25px 25px 0px 0px;
+    color: white;
+}
+.visa-img{
+    width: 40%;
+    height: max-content;
+    display: inline-flex;
+    align-items: center;
+}
+.visa-img>img{
+    width: 100%;
+}
+.feedback-video{
+    width: 100%;
+    padding: 30px;
+    display: inline-flex;
+    justify-content: center;
+}
+#admission-span>i{
+    color: #da8404;
+}
+.carusel-div{
+    width: 100%;
+    height: 55vh;
+    background-image: url(https://fino.uz/wp-content/uploads/2019/05/ourcompany-map-1024x860.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: grab;
+}
+@media screen and (max-width:992px){
+    .about_fino{
+        width: 20% !important;
+    }
+    #about_h5{
+        font-size: 13pt;
+    }
+    .div_tel{
+        width: 20%;
+    }
+    #tel_a{
+        font-size: 14pt;
+    }
+    .div_contacts{
+        width: 25% !important;
+    }
+    .mycontacts3{
+        width: 16%;
+    }
+    .mycontacts2{
+        width: 16%;
+    }
+    .head_div02{
+        width: 80%;
+    }
+    .head_div01{
+        width: 90%;
+    }
+    
+    .carousel_h1{
+        height: min-content;
+    }
+    .carousel_h1>h2{
+        font-size: 17pt;
+    }
+    .carousel_h1>h1{
+        font-size: 17pt;
+    }
+    .carousel_h1>h5{
+        font-size: 12pt !important;
+    }
+    .carousel_h01>h5{
+        font-size: 12pt !important;
+    }
+    .learn_more>h5{
+        font-size: 11pt;
+    }
+    .main_about{
+        height: 80vh;
+    }
+    .about_div{
+        width: 85%;
+    }
+    .about_divcha{
+        width: 35%;
+        height: max-content;
+    }
+    .services_img{
+        width: 100%;
+    }
+    .img_center{
+        height: 22vh;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .usa_img{
+        height: 22vh;
+    }
+    .usa_img>a>span{
+        font-size: 10pt;
+        text-align: center;
+    }
+    .usa_img>a>h4{
+        font-size: 14pt;
+    }
+    .img_center1{
+        height: 22vh;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .img_center2{
+        height: 22vh;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .img_center3{
+        height: 22vh;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .img_center4{
+        height: 22vh;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .img_center5{
+        height: 22vh;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .img_center6{
+        height: 22vh;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .img_center7{
+        height: 22vh;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .img_center8{
+        height: 22vh;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .services_text>h2{
+        font-size: 18pt;
+    }
+    .services_text1>h2{
+        font-size: 18pt;
+    }
+    .about_fino{
+        display: none;
+    }
+    .div_tel{
+        display: none;
+    }
+    .head_div{
+        display: none;
+    }
+    .head{
+        display: inline-flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 11vh;
+    }
+    #finoimg{
+        width: 65%;
+    }
+    .div_contacts>a{
+        display: none;
+    }
+    .div_contacts{
+        display: inline-flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .mycontacts2{
+        display: none;
+    }
+    .mycontacts3{
+        display: none;
+    }
+    .carousel_h01 {
+        height: max-content;
+    }
+    
+    .main_div02{
+        margin-left: 10%;
+        width: 45%;
+        color: white;
+    }
+    
+    #mh2{
+        font-size: 20pt;
+    }
+    .footer_body_div1{
+        width: 95%;
+        height: 70vh;
+    }
+    .footer_body_div01{
+        height: 70vh;
+    }
+    .footer_body_div02{
+        height: 70vh;
+    }
+    .multi{
+        width: 100% !important;
+        display: inline-flex;
+        height: 40vh;
+    }
+    .carousel_example {
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .multicaruselbody{
+        height: 30vh;
+    }
+    .carousel_item1{
+        width: 100%;
+        height: 30vh;
+    }
+    .carousel_item2{
+        width: 100%;
+        height: 30vh;
+    }
+    .carousel_img_div{
+        width: 11%;
+        height: 20vh;
+    }
+    .carousel_img_div1{
+        width: 11%;
+        height: 20vh;
+    }
+    .carousel_text{
+        height: 30vh;
+        display: inline-flex;
+        align-items: center;
+    }
+    .ol_div{
+        padding-left: 0% !important;
+    }
+    .div_costs1{
+        width: 90%;
+    }
+    .toolbar_body1{
+        width: 95% !important;
+    }
+    .countries_div{
+        width: 95%;
+    }
+    .divabout01{
+        width: 90%;
+    }
+    .main-text-div{
+        width: 90%;
+    }
+    .img-div01{
+        width: 100% !important;
+    }
+    .img-div02{
+        width: 100% !important;
+    }
+    .img-text{
+        width: 55%;
+    }
+    #learn-how{
+        width: 15% !important;
+    }
+    #contactus{
+        width: 15% !important;
+        margin-left: 17% !important;
+    }
+    
+    .employee-div{
+        width: 90%;
+    }
+    .employee-img{
+        display: inline-flex;
+        justify-content: end;
+    }
+    .admissions-div>img{
+        width: 75%;
+        height: 19.5vh;
+    }
+    .admissions-div1>img{
+        width: 75%;
+        height: 19.5vh;
+    }
+    .text-div{
+        width: 80%;
+    }
+    .div-text{
+        width: 80%;
+    }
+    .consultingdiv{
+        width: 100% !important;
+    }
+    .div-text2{
+        width: 90%;
+    }
+    .visa-div{
+        width: 100% !important;
+
+    }
+}
+@media screen and (min-width:992px) {
+    #btn_menu{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .usa_img>a>span{
+        font-size: 10pt;
+        text-align: center;
+    }
+    .usa_img>a>h4{
+        font-size: 13pt;
+    }
+    .learn_more{
+        width: 40%;
+        height: 5.5vh;
+    }
+    .carousel_h01 {
+        height: max-content;
+    }
+    .head_div{
+        display: none;
+    }
+    .about_fino{
+        display: none;
+    }
+    .div_tel{
+        display: none;
+    }
+    .head{
+        display: inline-flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 11vh;
+    }
+    #finoimg{
+        width: 65%;
+    }
+    .div_contacts>a{
+        display: none;
+    }
+    .div_contacts{
+        display: inline-flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .mycontacts2{
+        display: none;
+    }
+    .mycontacts3{
+        display: none;
+    }
+    .offcanvas{
+        width: 45% !important;
+    }
+    .main_div{
+        height: max-content !important;
+    }
+    .main_about{
+        height: 90vh !important;
+    }
+    .about_div{
+        height: max-content !important;
+        display: inline-flex;
+    }
+    .about_text {
+        height: max-content !important;
+    }
+    .about_text>h2{
+        font-size: 15pt;
+    }
+    .about_text>span{
+        font-size: 10pt;
+    }
+    .about_img{
+        width: 50%;
+        height: max-content !important;
+        margin-top: 10vh;
+    }
+    .div_services{
+        margin-top: 10vh;
+    }
+    .div_services1{
+        margin-top: 10vh;
+    }
+    .main_div2{
+        height: 80vh;
+    }
+    .main_div02{
+        margin-left: 5%;
+        height: 60vh;
+    }
+    .main_div02>span{
+        font-size: 11pt;
+    }
+    .apply_now{
+        width: 40%;
+    }
+    .apply_now>h5{
+        font-size: 10pt;
+    }
+    #mh2{
+        font-size: 17pt;
+    }
+    .multi{
+        height: 50vh;
+
+    }
+    .carousel_item1{
+        height: 50vh;
+    }
+    .carousel_item2{
+        height: 50vh;
+    }
+    .carousel_text{
+        height: 45vh;
+    }
+    .carousel_img_div{
+        width: 12%;
+        height: 15vh;
+    }
+    .carousel_img_div1{
+        width: 12%;
+        height: 15vh;
+    }
+    .ol_div>ol{
+        column-count: 2;
+    }
+    .img-text{
+        width: 60%;
+    }
+    .img-text>h2{
+        font-size: 20pt;
+    }
+    #learn-how{
+        width: 20% !important;
+    }
+    #contactus{
+        width: 20% !important;
+        margin-left: 23% !important;
+    }
+    .employee-div{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .employee-img{
+        width: 90%;
+    }
+    .employee-img>img{
+        width: 35%;
+    }
+    .admissions-div>img{
+        width: 35%;
+    }
+    .admissions-div1>img{
+        width: 35%;
+    }
+    .employee-text{
+        width: 90%;
+    }
+    .admissions-div>img{
+        width: 67%;
+        height: 14vh;
+    }
+    .admissions-div1>img{
+        width: 67%;
+        height: 14vh;
+    }
+    .text-div{
+        width: 90%;
+    }
+    .div-text{
+        width: 90%;
+    }
+}
+@media screen and (max-width:576px) {
+    .head{
+        height: 15vh;
+    }
+    .div_finoimg{
+        width: 40%;
+    }
+    #finoimg{
+        width: 70%;
+    }
+    .div_carusel{
+        width: 100%;
+        height: 90vh !important;
+    }
+    .carousel{
+        height: 90vh;
+    }
+    .carousel-inner{
+        height: 90vh !important;
+    }
+    .crs_itm{
+        height: 90vh !important;
+    }
+    .crs_itm1{
+        height: 90vh !important;
+    }
+    .carousel_div1{
+        width: 70% !important;
+    }
+    .carousel_div{
+        width: 70% !important;
+    }
+    .carousel_h1>h1{
+        width: 100% !important;
+        font-size: 12pt !important;
+    }
+    .carousel_h1>h5{
+        width: 100% !important;
+        font-size: 8pt !important;
+    }
+    .carousel_h1>h2{
+        width: 100% !important;
+        font-size: 12pt !important;
+    }
+    .carousel_h01>h5{
+        font-size: 8pt !important;
+    }
+    .offcanvas{
+        width: 60% !important;
+    }
+    .div_offcanvas_body{
+        width: 100%;
+        font-size: 10pt;
+    }
+    .main_div{
+        height: max-content !important;
+    }
+    .main_about{
+        height: max-content !important;
+    }
+    .about_div{
+        width: 100%;
+        height: max-content !important;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_text {
+        width: 95%;
+        height: max-content !important;
+    }
+    .about_text>h2{
+        font-size: 15pt;
+    }
+    .about_text>span{
+        font-size: 10pt;
+    }
+    .about_img{
+        width: 80%;
+        height: max-content !important;
+        margin-top: 10vh;
+    }
+    .main_about1{
+        width: 100% !important;
+        height: max-content !important;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10vh;
+    }
+    .about_divcha {
+        width: 95% !important;
+
+    }
+    .div_services{
+        width: 100% !important;
+        height: max-content !important;
+        margin-top: 10vh;
+    }
+    .div_services1{
+        width: 100% !important;
+        height: max-content !important;
+        margin-top: 10vh;
+    }
+    .services_text>h2{
+        font-size: 12pt !important;
+    }
+    .services_img{
+        height: max-content !important;
+    }
+    .services_img>div{
+        width: 95% !important;
+        height: 35vh !important;
+    }
+    .usa_img{
+        height: 35vh !important;
+    }
+    .usa_img>a>h4{
+        font-size: 17pt !important;
+    }
+    .main_div02{
+        width: 90%;
+        margin-left: 5%;
+        height: 60vh;
+    }
+    .main_div02>span{
+        font-size: 11pt;
+    }
+    .apply_now{
+        width: 40%;
+    }
+    .apply_now>h5{
+        font-size: 10pt;
+    }
+    #mh2{
+        font-size: 17pt;
+    }
+    .multicaruseldiv{
+        height: max-content;
+    }
+    .multicaruselbody{
+        height: 90vh;
+    }
+    footer{
+        margin-top: 5vh !important;
+    }
+    .footer_div{
+        height: max-content;
+    }
+    .footer_body_div1{
+        width: 100%;
+        height: max-content;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .footer_body_div01{
+        width: 100%;
+    }
+    .footer_body_div02{
+        width: 100%;
+    }
+    .multi{
+        height: 90vh !important;
+
+    }
+    .carousel_item1{
+        height: 90vh !important;
+        padding: 0%;
+    }
+    .carousel_item2{
+        height: 90vh !important;
+        padding: 0%;
+    }
+    .carousel_text{
+        width: 70%;
+        height: 90vh !important;
+    }
+    .carousel_img_div{
+        margin-left: 0px;
+        width: 20%;
+    }
+    .carousel_img_div1{
+        margin-left: 0px;
+        width: 20%;
+    }
+    .div_costs1{
+        width: 100% !important;
+    }
+    .toolbar_line{
+        /* height: 10vh; */
+        display: inline-flex;
+
+    }
+    .toolbar_body1{
+        margin-top: 10vh;
+    }
+    .tab{
+        display: inline-flex;
+        justify-content: center;
+    }
+    .tab>button{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .toolbarul{
+        margin-top: 10vh !important;
+    }
+    .head_div_text{
+        width: 80% !important;
+    }
+    .head_div_text>h1{
+        font-size: 20pt;
+    }
+    .head_div_text>span{
+        font-size: 12pt;
+    }
+    #span_list{
+        padding-left: 10px;
+    }
+    .countries_about1{
+        width: 90% !important;
+    }
+    .services_img{
+        display: inline-flex;
+        justify-content: center !important;
+        margin: 0% !important;
+    }
+    .services_img>div{
+        margin-left: 0% !important;
+    }
+    .main-text-div{
+        width: 100 !important;
+    }
+    .main-text-div>h3{
+        font-size: 15pt;
+    }
+    .img-text{
+        width: 80%;
+    }
+    .img-text>h2{
+        font-size: 16pt;
+    }
+    .img-text>span{
+        font-size: 10pt;
+    }
+    #learn-how{
+        width: 20% !important;
+        height: 4vh;
+        font-size: 11pt;
+    }
+    #contactus{
+        width: 20% !important;
+        margin-left: 23% !important;
+        font-size: 11pt;
+        height: 4vh;
+    }
+
+    .admissions-div{
+        width: 90%;
+        margin-top: 5vh;
+        margin-left: 0%;
+    }
+    .admissions-div1{
+        width: 90%;
+        margin-left: 0%;
+        margin-top: 5vh;
+    }
+    .admissions-div>img{
+        width: 45%;
+        height: 21vh;
+    }
+    .admissions-div1>img{
+        width: 45%;
+        height: 21vh;
+    }
+    .text-div{
+        width: 100%;
+    }
+    .div-text{
+        width: 100%;
+    }
+    .div-text2{
+        width: 98%;
+    }
+    .visa-div{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .visa-div>div{
+        width: 95% !important;
+    }
+    .visa-img{
+        margin-top: 8vh;
+    }
+}
